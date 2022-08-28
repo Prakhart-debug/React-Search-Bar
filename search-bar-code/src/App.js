@@ -6,7 +6,7 @@ import BookData from "./Data.json";
 function App() {
   return (
     <div className="App">
-      <SearchBar placeholder="Enter a Book Name..." data={BookData} />
+      <SearchBar placeholder="Enter Dog Name..." data={BookData} />
     </div>
   );
 }

@@ -29,11 +29,18 @@ input:focus {
 .searchIcon svg {
   font-size: 35px;
 }
-
+.filter{
+  margin-top: 10px;
+  display: flex;
+  font-size: 18px;
+  padding: 35px;
+  height: 30px;
+  width: 30px;
+}
 .dataResult {
-  margin-top: 5px;
+  margin-top: 80px;
   width: 300px;
-  height: 200px;
+  height: 250px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
@@ -51,9 +58,13 @@ input:focus {
   align-items: center;
   color: black;
 }
-
+.dataItem{
+  width: 380px;
+  border: 1px solid #454545;
+}
 .dataItem p {
   margin-left: 10px;
+  
 }
 a {
   text-decoration: none;
