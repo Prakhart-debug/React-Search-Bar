@@ -8,6 +8,16 @@
   font-family: "Nunito", sans-serif;
   background-image: linear-gradient(90deg, #410076, #8820dd);
 }
+.btn {
+  background-color: #410076;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  padding: 0px;
+  font-size: 18px;
+  cursor: grab;
+  transition: 0.3s;
+}
 body {
   padding: 0;
   margin: 0;

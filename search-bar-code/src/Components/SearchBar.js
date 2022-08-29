@@ -49,7 +49,7 @@ function SearchBar({ placeholder, data }) {
           {filteredData.slice(0, 100).map((value, key) => {
             return (
               <a className="dataItem" /*href={value.avatar}*/ target="_blank">
-                <p>{value.name} </p>
+                <p>{value.name} | {value.id} </p>
               </a>
             );
           })}
